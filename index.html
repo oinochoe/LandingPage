@@ -336,10 +336,14 @@ text-align:center; color:#0d1b2c; font-size:13px; line-height: 1.2;  font-weight
                 <div class="bg"></div>
                 <header class="js-header">
                     <div class="left">
-                        <a href="/main/index" class="logo pc"><img loading="lazy" data-lazy src="" alt="검은사막"></a>
-                        <a href="/main/index" class="logo mobile"><img loading="lazy" data-lazy src="" alt="검은사막"></a>
+                        <a href="/main/index" class="logo pc"><img loading="lazy" data-lazy src="https://s1.pearlcdn.com/SEA/Upload/Landing/Guardian/en-US/logo.png" alt="검은사막"></a>
+                        <a href="/main/index" class="logo mobile"><img loading="lazy" data-lazy src="https://s1.pearlcdn.com/SEA/Upload/Landing/Guardian/en-US/logo_m.png" alt="검은사막"></a>
                     </div>
-                    <div class="emb"><img loading="lazy" src="./img/emb.webp" alt="2주년"></div>
+                    <picture class="emb">
+                        <source srcset="./img/emb.webp" type="image/webp">
+                        <source srcset="./img/emb.png" type="image/png">
+                        <img loading="lazy" src="./img/emb.png" alt="2주년">
+                    </picture>
                     <div class="btnWrap">
                         <a href="/main/index" title="메인으로 이동"><span class="sns_home"></span></a>
                         <a href="javascript:bakeCookie();" class="btnClose"><span>Don’t Show Today</span><span class="today_close"></span></a>        
@@ -359,17 +363,17 @@ text-align:center; color:#0d1b2c; font-size:13px; line-height: 1.2;  font-weight
                 <div class="main">
                     <picture class="bg">
                         <source srcset="https://s1.pearlcdn.com/SEA/Upload/Landing/Guardian/en-US/bg.webp" type="image/webp" />
-                        <img loading="lazy" data-lazy src="" alt="" />
+                        <img loading="lazy" data-lazy src="https://s1.pearlcdn.com/SEA/Upload/Landing/Guardian/en-US/bg.jpg" alt="" />
                     </picture>
                     <!-- webp -->
                     <picture class="pic js-picFirst">
                         <source srcset="https://s1.pearlcdn.com/SEA/Upload/Landing/Guardian/en-US/bg_char.webp" type="image/webp" />
-                        <img loading="lazy" data-lazy src="" alt="도끼를 들고 있는 가디언" />
+                        <img loading="lazy" data-lazy src="https://s1.pearlcdn.com/SEA/Upload/Landing/Guardian/en-US/bg_char.jpg" alt="도끼를 들고 있는 가디언" />
                     </picture>
 
                     <picture class="pic pic_effect js-picSecond">
                         <source srcset="https://s1.pearlcdn.com/SEA/Upload/Landing/Guardian/en-US/bg_with_effect.webp" type="image/webp" />
-                        <img loading="lazy" data-lazy src="" alt="도끼를 들고 있는 가디언(효과 포함)" />
+                        <img loading="lazy" data-lazy src="https://s1.pearlcdn.com/SEA/Upload/Landing/Guardian/en-US/bg_with_effect.jpg" alt="도끼를 들고 있는 가디언(효과 포함)" />
                     </picture>
                     <!-- cont -->
                     <div class="cont">
@@ -382,8 +386,8 @@ text-align:center; color:#0d1b2c; font-size:13px; line-height: 1.2;  font-weight
                         </aside>
                         <article class="main_contents js-article">
                             <h3 class="blind">가디언 업데이트 콘텐츠</h3>
-                            <p class="title"><img loading="lazy" data-lazy src="" alt="가디언" /></p>
-                            <p class="text"><img loading="lazy" data-lazy src="" alt="신성한 불꽃의 주인, 가디언 업데이트" /></p>
+                            <p class="title"><img loading="lazy" data-lazy src="https://s1.pearlcdn.com/SEA/Upload/Landing/Guardian/en-US/img_title.png" alt="가디언" /></p>
+                            <p class="text"><img loading="lazy" data-lazy src="https://s1.pearlcdn.com/SEA/Upload/Landing/Guardian/en-US/img_text.png" alt="신성한 불꽃의 주인, 가디언 업데이트" /></p>
                             <ul>
                                 <li><a class="btnTeaser" data-popup_video="-GrV8h0TO8M">Trailer</a></li>
                                 <li><a href="https://www.sea.playblackdesert.com/News/Notice/Detail?boardNo=3321&countryType=en-US" target="_blank" rel="noopener" rel="noreferrer" title="가디언 이벤트 페이지로 이동">Guardian Events</a></li>
@@ -412,12 +416,12 @@ text-align:center; color:#0d1b2c; font-size:13px; line-height: 1.2;  font-weight
     
     <script src="./js/jquery-3.4.1.slim.min.js"></script>
     <script src="https://www.sea.playblackdesert.com/Api/Language"></script>    
-    <script src="https://unpkg.com/webp-hero@0.0.0-dev.21/dist-cjs/polyfills.js"></script>
+    <!-- <script src="https://unpkg.com/webp-hero@0.0.0-dev.21/dist-cjs/polyfills.js"></script>
     <script src="https://unpkg.com/webp-hero@0.0.0-dev.21/dist-cjs/webp-hero.bundle.js"></script>
     <script>
       var webpMachine = new webpHero.WebpMachine();
       webpMachine.polyfillDocument();
-    </script>
+    </script> -->
     <script>
         window._abyss = window._abyss || {};
         window._abyss.landing = (function (landing, $) {
@@ -441,7 +445,7 @@ text-align:center; color:#0d1b2c; font-size:13px; line-height: 1.2;  font-weight
             landing.init = function () {
                 moviePopup();
                 deviceCheck();
-                preloadImages();
+                // preloadImages();
                 show('.js-picFirst', .1);
                 show('.js-picSecond', .7);
                 show('.js-header, .js-footer', 1.4);
