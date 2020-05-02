@@ -28,7 +28,6 @@ module.exports = {
             name: '랜딩페이지',
             short_name: '랜딩',
             description: '리액트로 제작한 랜딩페이지',
-            backgrond_color: '#ffffff',
             crossorigin: 'use-credentials', // 인증 사용하겠다.
             theme_color: '#eeeeee',
             icons: [

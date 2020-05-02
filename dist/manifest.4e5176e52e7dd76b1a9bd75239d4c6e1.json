@@ -1,0 +1,42 @@
+{
+  "icons": [
+    {
+      "src": "icon_512x512.0032ab3456f3675b3ddddb5fad9f7006.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icon_384x384.87ce74b83d10de7c8eae76c2bda2b0b6.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "icon_256x256.5a050ab4d279ecf3fd0adecac6f76b04.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "icon_192x192.175c36571872f1e6f9954aac71620f47.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon_128x128.c5e9855922e967c31a3534081184e45b.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "icon_96x96.fcd0da8b43dc6b9cff14cf4cf1009dd6.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    }
+  ],
+  "name": "랜딩페이지",
+  "short_name": "랜딩",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": ".",
+  "description": "리액트로 제작한 랜딩페이지",
+  "backgrond_color": "#ffffff",
+  "theme_color": "#eeeeee"
+}
