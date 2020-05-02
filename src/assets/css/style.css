@@ -124,7 +124,7 @@ footer > span { display: inline-block; vertical-align: middle; margin-left: 10px
 .main_contents .text { display: block; margin-top: -20px; }
 .main_contents ul { margin-top: 40px; display: block; font-size: 0; }
 .main_contents ul li { display: inline-block; vertical-align: top; }
-.main_contents ul li a { display: flex; justify-content: center; align-items: center; width: 356px; height: 93px; background: url(../../../src/assets/img/spr_btns.png) 0 0/356px auto no-repeat; font-size: 20px; color: #fff; }
+.main_contents ul li a { display: flex; justify-content: center; align-items: center; width: 356px; height: 93px; background: url(https://s1.pearlcdn.com/SEA/Upload/Landing/Guardian/en-US/spr_btns.png) 0 0/356px auto no-repeat; font-size: 20px; color: #fff; }
 
 /* ie 일 때 png로 처리 */
 /* .main_contents ul.ie li a { background-image:url(../img/spr_btns.png) } */
