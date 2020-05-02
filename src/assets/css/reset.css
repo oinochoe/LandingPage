@@ -1,0 +1,111 @@
+@charset "utf-8";
+@font-face { font-family: 'CustomFont'; font-style: normal; font-weight: 400; font-display: swap; src: url('https://s1.pearlcdn.com/SEA/contents/fonts/notosanskr-regular2.eot'); src: local('※'), url('https://s1.pearlcdn.com/SEA/contents/fonts/notosanskr-regular2.woff2') format('woff2'),
+ url('https://s1.pearlcdn.com/SEA/contents/fonts/notosanskr-regular2.woff') format('woff'),
+ url('https://s1.pearlcdn.com/SEA/contents/fonts/notosanskr-regular2.otf') format('opentype'),
+ url('https://s1.pearlcdn.com/SEA/contents/fonts/notosanskr-regular2.svg') format('svg'); unicode-range: U+0020- U+007E, U+1100- U+11F9, U+3000- U+303F, U+3131- U+318E, U+327F- U+327F, U+AC00- U+D7A3, U+FF01- U+FF60; }
+
+ @font-face { font-family: 'CustomFontIngame'; font-display: swap; src: url('https://s1.pearlcdn.com/SEA/contents/fonts/notosanskr-regular2.ttf') format('truetype'),
+ url('https://s1.pearlcdn.com/SEA/contents/fonts/notosanskr-regular2.otf') format('opentype'),
+ url('https://s1.pearlcdn.com/SEA/contents/fonts/notosanskr-regular2.svg') format('svg'); unicode-range: U+0020- U+007E, U+1100- U+11F9, U+3000- U+303F, U+3131- U+318E, U+327F- U+327F, U+AC00- U+D7A3, U+FF01- U+FF60; }
+
+ @font-face { font-family: 'NotoSansMedium'; font-display: swap; src: url('../../fonts/NotoSans-Medium.eot'); src: local('※'), url('https://s1.pearlcdn.com/SEA/contents/fonts/NotoSans-Medium.woff2') format('woff2'),
+ url('https://s1.pearlcdn.com/SEA/contents/fonts/NotoSans-Medium.woff') format('woff'),
+ url('https://s1.pearlcdn.com/SEA/contents/fonts/NotoSans-Medium.eot?#iefix') format('embedded-opentype'); font-style: normal; font-weight: normal; unicode-range: U+0020- U+007E, U+1100- U+11F9, U+3000- U+303F, U+3131- U+318E, U+327F- U+327F, U+AC00- U+D7A3, U+FF01- U+FF60; }
+
+
+/* TODO : universal selector only */
+*,
+*:before,
+*:after { box-sizing: border-box; }
+
+/* reset */
+html,
+body { height: 100%; background: #0a0d16; }
+
+html,
+body,
+button,
+dl,
+dt,
+dd,
+div,
+form,
+fieldset,
+legend,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+select,
+textarea,
+ul,
+ol,
+li,
+p,
+pre,
+table,
+td,
+th,
+caption,
+a,
+button,
+address,
+figure { margin: 0; padding: 0; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 { font-weight: normal; font-size: 1.4rem; }
+
+body { line-height: 1.2; color: #2b2b2b; font-family: 'CustomFont', 'Noto sans', HelveticaNeue-Light, AppleSDGothicNeo-Light, sans-serif; min-width: 100%; letter-spacing: 0; -webkit-overflow-scrolling: touch; word-wrap: break-word; }
+
+a,
+input,
+select,
+textarea,
+button,
+label { -webkit-appearance: none; -ms-appearance: none; -moz-appearance: none; appearance: none; border-radius: 0; vertical-align: top; }
+
+input { font-weight: normal; color: #626262; outline: none; }
+
+a { cursor: pointer; outline: none; }
+
+caption { visibility: hidden; font-size: 0; text-indent: -9999px; }
+
+input { vertical-align: middle; }
+
+input,
+textarea,
+select,
+button { font-size: 1.4rem; }
+
+ol,
+ul,
+li { list-style: none; }
+
+a { text-decoration: none; color: #2b2b2b; cursor: pointer; -ms-user-select: none; -moz-user-select: -moz-none; -webkit-user-select: none; -khtml-user-select: none; user-select: none; }
+
+img { vertical-align: top; border: 0; }
+
+table { border-collapse: collapse; border-spacing: 0; width: 100%; max-width: 100%; }
+
+em { font-style: normal; }
+
+button { border: 0; background: none; outline: none; cursor: pointer; }
+
+/* TODO : blind */
+.blind { position: absolute; overflow: hidden; clip: rect(0, 0, 0, 0); margin: -1px; width: 1px; height: 1px; }
+
+fieldset { width: 100%; border: 0; }
+
+legend { position: absolute; left: -9999px; width: 1px; height: 1px; margin: 0; padding: 0; background: none; font-size: 0; line-height: 0; text-indent: -9999px; }
+
+html { scroll-behavior: smooth; }
+
+/* contents */
+.contents { position: relative; max-height: 100vh; overflow: hidden; }
