@@ -1,5 +1,5 @@
 @charset "utf-8";
-@font-face { font-family: 'CustomFont'; font-style: normal; font-weight: 400; font-display: swap; src: url('https://s1.pearlcdn.com/SEA/contents/fonts/notosanskr-regular2.eot'); src: local('※'), url('https://s1.pearlcdn.com/SEA/contents/fonts/notosanskr-regular2.woff2') format('woff2'),
+/* @font-face { font-family: 'CustomFont'; font-style: normal; font-weight: 400; font-display: swap; src: url('https://s1.pearlcdn.com/SEA/contents/fonts/notosanskr-regular2.eot'); src: local('※'), url('https://s1.pearlcdn.com/SEA/contents/fonts/notosanskr-regular2.woff2') format('woff2'),
  url('https://s1.pearlcdn.com/SEA/contents/fonts/notosanskr-regular2.woff') format('woff'),
  url('https://s1.pearlcdn.com/SEA/contents/fonts/notosanskr-regular2.otf') format('opentype'),
  url('https://s1.pearlcdn.com/SEA/contents/fonts/notosanskr-regular2.svg') format('svg'); unicode-range: U+0020- U+007E, U+1100- U+11F9, U+3000- U+303F, U+3131- U+318E, U+327F- U+327F, U+AC00- U+D7A3, U+FF01- U+FF60; }
@@ -11,7 +11,7 @@
  @font-face { font-family: 'NotoSansMedium'; font-display: swap; src: url('../../fonts/NotoSans-Medium.eot'); src: local('※'), url('https://s1.pearlcdn.com/SEA/contents/fonts/NotoSans-Medium.woff2') format('woff2'),
  url('https://s1.pearlcdn.com/SEA/contents/fonts/NotoSans-Medium.woff') format('woff'),
  url('https://s1.pearlcdn.com/SEA/contents/fonts/NotoSans-Medium.eot?#iefix') format('embedded-opentype'); font-style: normal; font-weight: normal; unicode-range: U+0020- U+007E, U+1100- U+11F9, U+3000- U+303F, U+3131- U+318E, U+327F- U+327F, U+AC00- U+D7A3, U+FF01- U+FF60; }
-
+ */
 
 /* TODO : universal selector only */
 *,
