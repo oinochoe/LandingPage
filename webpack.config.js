@@ -25,10 +25,10 @@ module.exports = {
             template: './src/index.html',
         }),
         new WebpackPwaManifest({
-            name: 'Black Desert | PEARL ABYSS (랜딩 템플릿)',
-            short_name: '랜딩',
+            name: 'landingpage',
+            short_name: 'landingpage',
             description: '리액트로 제작한 랜딩페이지',
-            background_color: 'black',
+            background_color: 'white',
             crossorigin: 'use-credentials', // 인증 사용하겠다.
             theme_color: '#eeeeee',
             icons: [
