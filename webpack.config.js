@@ -28,7 +28,7 @@ module.exports = {
             name: 'Black Desert | PEARL ABYSS (랜딩 템플릿)',
             short_name: '랜딩',
             description: '리액트로 제작한 랜딩페이지',
-            background_color: '#ffffff',
+            background_color: 'black',
             crossorigin: 'use-credentials', // 인증 사용하겠다.
             theme_color: '#eeeeee',
             icons: [
